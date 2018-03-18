@@ -3,6 +3,7 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HelloWorldModule } from './hello-world/hello-world.module';
+import { RoughModule } from './rough/rough.module';
 
 @NgModule({
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
@@ -11,7 +12,8 @@ import { HelloWorldModule } from './hello-world/hello-world.module';
   ],
   imports: [
     BrowserModule,
-    HelloWorldModule
+    HelloWorldModule,
+    RoughModule
   ],
   providers: [],
   bootstrap: [AppComponent]
