@@ -7,6 +7,7 @@ import { CircleComponent } from './circle/circle.component';
     CommonModule
   ],
   declarations: [CircleComponent],
+  entryComponents: [ CircleComponent ],
   exports: [CircleComponent]
 })
 export class RoughModule { }
